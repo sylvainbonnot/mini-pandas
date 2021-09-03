@@ -10,7 +10,7 @@ Welcome to mini-pandas's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   docs/about
+   about
 
 
 
