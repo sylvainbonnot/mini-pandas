@@ -1,5 +1,5 @@
 .. toctree::
    :maxdepth: 2
 
-   docs/about
+   docs/about.md
    
