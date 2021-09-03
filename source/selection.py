@@ -1,3 +1,7 @@
+"""
+Simple iterator functions to mimick pandas functions
+"""
+
 from operator import itemgetter
 from functools import partial
 
