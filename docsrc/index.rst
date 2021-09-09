@@ -1,13 +1,8 @@
 Welcome to mini-pandas's documentation!
 =======================================
-.. automodule:: src.selection
-    :members:
 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
+.. include:: ./table_of_contents.rst
 
 
 Indices and tables
