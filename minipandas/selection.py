@@ -17,9 +17,11 @@ def drop_n(num=1):
     ```
     def double(x):
         return 2*x
-    ```
+    
     >>> double(3)
     >>> 6
+    ```
+    
     """
     return partial(drop, num)
 
