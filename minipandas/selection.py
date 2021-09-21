@@ -5,6 +5,24 @@ Simple iterator functions to mimick pandas functions
 from operator import itemgetter
 from functools import partial
 
+def dummy():
+    """
+    Dummy function
+    .. code-block:: python
+
+    >>> a = 2
+    >>> print(a)
+    2
+    
+    >>> b = ['wow',
+    ...      'eee']
+    >>> print(b)
+    ['wow', 'eee']
+
+    |
+    """
+    return True
+
 def get_column(col=0):
     return partial(map,itemgetter(col))
 
