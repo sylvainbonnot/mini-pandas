@@ -1,5 +1,5 @@
-Welcome to mini-pandas's documentation!
-=======================================
+Welcome to minipandas's documentation!
+======================================
 
 
 .. include:: ./table_of_contents.rst

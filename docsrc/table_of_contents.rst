@@ -2,3 +2,4 @@
    :maxdepth: 2
    :caption: Contents:
 
+   module_docs/minipandas/selection
