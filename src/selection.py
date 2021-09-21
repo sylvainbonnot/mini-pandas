@@ -14,7 +14,7 @@ def apply_func_to_first(func):
 def drop_n(num=1):
     """
     drop first elements
-    ```
+    ```{code-block} python
     def double(x):
         return 2*x
     ```
