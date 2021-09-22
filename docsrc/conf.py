@@ -29,6 +29,8 @@ project, copyright, author, release, display_name = parse_config(
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx_toggleprompt',
+    'sphinx_copybutton',
     'sphinx.ext.autodoc',  # Include documentation from docstrings
     'sphinx.ext.doctest',  # Test snippets in the documentation
     'sphinx.ext.githubpages',  # This extension creates .nojekyll file
@@ -36,7 +38,7 @@ extensions = [
     'sphinx.ext.napoleon',  # Support for NumPy and Google style docstrings
     'sphinx.ext.todo',  # Support for todo items
     'sphinx.ext.viewcode',  # Add links to highlighted source code
-    'myst_parser',  # Parse .md files
+    'myst_parser',  # Parse .md files    
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -72,3 +74,5 @@ def docstring(app, what, name, obj, options, lines):
 
 def setup(app):
     app.connect('autodoc-process-docstring', docstring)
+
+toggleprompt_offset_right = 25
